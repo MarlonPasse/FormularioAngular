@@ -1,0 +1,15 @@
+
+
+<!--Criando o formulário-->
+
+<form #userform="ngForm" (ngSubmit)="OnSubmit()">   <!--E-mail e senha-->
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email" [(ngModel)]="usermodel.email">
+
+<label for="senha">Senha</label>
+<input type="password" id="senha" name="senha" [(ngModel)]="usermodel.senha">
+
+<button type="submit">Enviar</button>
+</form>
+
