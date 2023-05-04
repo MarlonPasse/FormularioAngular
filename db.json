@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "email": "marlon@gamil.com",
+      "password": "$2a$10$fXHsXYhmRlKOnM35BJF5U.KGIVYRAg6IAzCwpLDqWUqVAlQsaEb1a",
+      "nome": "Marlon",
+      "idade": 33,
+      "id": 1
+    },
+    {
+      "email": "miguel@gamil.com",
+      "password": "$2a$10$YPgEwFkkuuUhnLjDwMHWX.pFRhtEhELlIh9cV.fs7fPSGjUfpJMm2",
+      "nome": "Miguel",
+      "idade": 20,
+      "id": 2
+    },
+    {
+      "email": "mari@gamil.com",
+      "password": "$2a$10$TsY5QI5peVPepFXGV03TT.o9THXPBo8b5k4s7Fs3ySNt6w5tmMDcS",
+      "nome": "Mari",
+      "idade": 30,
+      "id": 3
+    }
+  ]
+}

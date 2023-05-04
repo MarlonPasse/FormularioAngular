@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { User } from 'src/app/models/user';
+import { LoginService } from 'src/app/services/login.service';
 
 
 @Component({
@@ -11,10 +12,16 @@ export class HomeComponent {
 
   //instanciar a class User
 
-  usermodel = new User()
+constructor (private loginService : LoginService){}
+  
+usermodel = new User()
 
-  OnSubmit (){
+  OnSubmit() {
     console.log(this.usermodel)
+    
+    this.loginService.login(this.usermodel).subscribe( (Response) => {
+      console.log(Response)
+    })
   }
-
 }
+
